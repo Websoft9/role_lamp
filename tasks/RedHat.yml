@@ -1,5 +1,5 @@
 - name: Configure PHP-FPM
-  file:
+  copy:
     src: centos-php-fpm.conf
     dest: /etc/php-fpm.d/www.conf
 
